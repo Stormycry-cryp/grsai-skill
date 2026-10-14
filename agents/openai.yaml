@@ -1,0 +1,4 @@
+interface:
+  display_name: "GrsAI"
+  short_description: "按任务与积分预算选择 GrsAI 模型，直接生成图片、视频和文本"
+  default_prompt: "使用 $grsai 根据任务选择适合的模型并生成内容。"

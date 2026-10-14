@@ -1,0 +1,10 @@
+{
+  "name": "grsai-public-skill",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "bin": { "grsai": "scripts/grsai.mjs" },
+  "scripts": { "test": "node --test tests/*.test.mjs" },
+  "dependencies": { "dotenv": "18.0.7", "sharp": "0.35.5" }
+}
